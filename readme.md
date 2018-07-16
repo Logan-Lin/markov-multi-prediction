@@ -11,7 +11,9 @@
 
 ### 初始化
 
+```
     markov = Markov(his_count=1, pre_count=3, test_count=3, tol=3)
+```python
 
 - `his_count`为历史轨迹长度
 - `pre_count`为预测轨迹长度
